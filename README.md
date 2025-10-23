@@ -1,17 +1,11 @@
 Caixa Eletrônico em Java
-
 Projeto em Java que simula um caixa eletrônico de forma interativa no terminal. Ideal para estudo de Java, lógica de programação e menus de terminal.
-
+________________________________________
 Funcionalidades
-
 O projeto permite realizar:
-
 1️⃣ Login
-
-Autenticação por número de conta e senha.
-
-Limite de 3 tentativas antes da conta ser bloqueada.
-
+•	Autenticação por número de conta e senha.
+•	Limite de 3 tentativas antes da conta ser bloqueada.
 2️⃣ Saque
 Operação	Descrição
 Saque	Permite retirar dinheiro, verificando saldo disponível e valores válidos.
@@ -27,31 +21,22 @@ Histórico de transações	Lista todas as operações realizadas na conta.
 5️⃣ Sair / Trocar Conta
 Operação	Descrição
 Sair	Encerra o sistema ou permite trocar de conta.
+________________________________________
 Como Executar
-
-Clone o repositório:
-
+1.	Clone o repositório:
 git clone https://github.com/GabrielMoreira48/Caixa_Eletronico.git
-
-
-Abra o projeto no IntelliJ IDEA (ou outro IDE Java).
-
-Compile e execute a classe Main.java.
-
-Um menu interativo será exibido:
-
+2.	Abra o projeto no IntelliJ IDEA (ou outro IDE Java).
+3.	Compile e execute a classe Main.java.
+4.	Um menu interativo será exibido:
 ==== Menu ===
 1 - Saque
 2 - Extrato
 3 - Deposito
 0 - Sair
 Escolha sua opção:
-
-
-Escolha a operação desejada e siga as instruções.
-
-Saques e depósitos serão registrados no histórico, que pode ser consultado no extrato.
-
+5.	Escolha a operação desejada e siga as instruções.
+6.	Saques e depósitos serão registrados no histórico, que pode ser consultado no extrato.
+________________________________________
 Exemplo de Uso
 Escolha sua opção: 1
 Qual valor deseja sacar R$: 50
@@ -66,15 +51,12 @@ Saldo atual da conta: R$ 1200.00
 Histórico de transações:
 Saque: -R$50.00
 Depósito: +R$200.00
-
+________________________________________
 Observações
-
-Projeto em Java puro, sem bibliotecas externas.
-
-Ótimo para estudos, prática de Java e manipulação de menus interativos.
-
-Não armazena dados de forma persistente; ao reiniciar o programa, saldos e histórico são resetados.
-
+•	Projeto em Java puro, sem bibliotecas externas.
+•	Ótimo para estudos, prática de Java e manipulação de menus interativos.
+•	Não armazena dados de forma persistente; ao reiniciar o programa, saldos e histórico são resetados.
+________________________________________
 Autor
-
 Gabriel Moreira
+
